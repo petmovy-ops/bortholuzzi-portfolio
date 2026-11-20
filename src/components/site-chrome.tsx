@@ -26,13 +26,18 @@ export function SiteChrome({ children }: { children: React.ReactNode }) {
       <BrandMark />
       <nav className="side-navigation" aria-label="Portfolio projects">
         <Link className="side-page-link" href="/about/">About</Link>
-        {navigationGroups.map(group => <section className="side-nav-group" key={group.title}>
-          <Link className="side-label" href={group.href}>{group.title}</Link>
-          <ul>{group.slugs.map(slug => {
-            const entry=portfolioEntries.find(item=>item.slug===slug);
-            return entry ? <li key={slug}><Link href={`/${slug}/`}>{entry.title}</Link></li> : null;
-          })}</ul>
-        </section>)}
+        {navigationGroups.map(group => <details className="side-nav-group" key={group.title}>
+          <summary className="side-label">
+            <span>{group.title}</span><span className="side-chevron" aria-hidden="true" />
+          </summary>
+          <div className="side-group-links">
+            <Link className="side-view-all" href={group.href}>View all {group.title.toLowerCase()}</Link>
+            <ul>{group.slugs.map(slug => {
+              const entry=portfolioEntries.find(item=>item.slug===slug);
+              return entry ? <li key={slug}><Link href={`/${slug}/`}>{entry.title}</Link></li> : null;
+            })}</ul>
+          </div>
+        </details>)}
         <Link className="side-page-link side-contact-link" href="/contact/">Contact</Link>
       </nav>
       <div className="social-links">{social.map(item => <a key={item.label} href={item.href} aria-label={item.label} title={item.label} target={item.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer">{item.mark}</a>)}</div>
