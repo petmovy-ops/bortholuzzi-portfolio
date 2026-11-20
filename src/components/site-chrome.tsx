@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { portfolioEntries } from "@/data";
+import categories from "@/data/categories.json";
 
 const social = [
   { label: "Behance", href: "https://www.behance.net/grandmondo", mark: "Be" },
@@ -6,26 +8,30 @@ const social = [
   { label: "Vimeo", href: "https://vimeo.com/bortholuzzi", mark: "v" },
   { label: "Email", href: "mailto:raphael@bortholuzzi.com", mark: "✉" }
 ];
+const navigationGroups = [
+  { title: "WORK", href: "/work/", slugs: categories.work },
+  { title: "ILLUSTRATION", href: "/illustrations/", slugs: categories.illustrations },
+  { title: "ARCHIVE", href: "/archives/", slugs: categories.archives }
+];
 
 export function BrandMark() {
-  return <Link href="/" className="brand-mark" aria-label="Bortholuzzi — home">
-    <svg viewBox="0 0 100 100" role="img" aria-label="RB">
-      <circle cx="50" cy="50" r="49" fill="#050505" />
-      <text x="50" y="66" textAnchor="middle" fill="none" stroke="white" strokeWidth="1.8" fontFamily="Georgia,serif" fontSize="53" letterSpacing="-8">ℝB</text>
-    </svg>
-  </Link>;
+  return <Link href="/" className="brand-mark" aria-label="Bortholuzzi — home"><span className="brand-mark-placeholder" aria-hidden="true" /></Link>;
 }
 
 export function SiteChrome({ children }: { children: React.ReactNode }) {
   return <div className="portfolio-layout">
     <aside className="portfolio-sidebar">
       <BrandMark />
-      <nav className="side-navigation" aria-label="Portfolio sections">
-        <Link href="/about/">About</Link>
-        <span className="side-label">Work</span><Link href="/work/">Selected work</Link>
-        <span className="side-label">Illustrations</span><Link href="/illustrations/">Illustrations</Link>
-        <span className="side-label">Archives</span><Link href="/archives/">Archives</Link>
-        <span className="side-label">Contact</span><Link href="/contact/">Get in touch</Link>
+      <nav className="side-navigation" aria-label="Portfolio projects">
+        <Link className="side-page-link" href="/about/">About</Link>
+        {navigationGroups.map(group => <section className="side-nav-group" key={group.title}>
+          <Link className="side-label" href={group.href}>{group.title}</Link>
+          <ul>{group.slugs.map(slug => {
+            const entry=portfolioEntries.find(item=>item.slug===slug);
+            return entry ? <li key={slug}><Link href={`/${slug}/`}>{entry.title}</Link></li> : null;
+          })}</ul>
+        </section>)}
+        <Link className="side-page-link side-contact-link" href="/contact/">Contact</Link>
       </nav>
       <div className="social-links">{social.map(item => <a key={item.label} href={item.href} aria-label={item.label} title={item.label} target={item.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer">{item.mark}</a>)}</div>
     </aside>
