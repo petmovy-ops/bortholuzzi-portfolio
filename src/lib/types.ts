@@ -23,7 +23,4 @@ export interface PortfolioEntry {
 export interface PortfolioMedia {
   file: string;
   src: string;
-  contentType: string;
-  bytes: number;
-  archive: string;
 }
