@@ -61,3 +61,16 @@ The existing project is intended to use Cloudflare Pages Git integration with Gi
 - 128 images without an explicit project reference remain in `public/media/` and are intentionally excluded from project galleries pending manual review.
 - Vimeo IDs remain sourced from the project catalog and are not altered by this mapping.
 - No title, date, credit, caption, category, or relationship was inferred.
+
+
+## Rendition deduplication — 2026-11-20
+
+The explicit source mapping contains multiple generated renditions of the same Adobe Portfolio image. These are identified by the stable UUID in the filename plus the rendition recipe (rw, carw, or rwc and its crop parameters); the final numeric segment is the generated width.
+
+- Each gallery now selects one rendition per source-image identity, preferring the greatest available width.
+- Different crop recipes remain separate identities, even when they share a UUID.
+- All 849 original files remain unchanged in public/media/; lower-resolution alternatives are not deleted.
+- The 721 source file references now resolve to 228 displayed source images across 41 mapped pages.
+- The Glee page now uses its 1920px rendition once instead of showing the 600px, 1200px, and 1920px renditions as three gallery items.
+
+The media integrity validator now checks for duplicate source-image identities in each page gallery while continuing to verify that all original files and selected gallery assets are present.
