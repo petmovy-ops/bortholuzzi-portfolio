@@ -1,4 +1,4 @@
-import type { PortfolioEntry } from "@/lib/types";
+import type { PortfolioEntry, PortfolioMedia } from "@/lib/types";
 import catalog from "./projects.json";
 import media from "./media.json";
 
