@@ -15,7 +15,9 @@ const navigationGroups = [
 ];
 
 export function BrandMark() {
-  return <Link href="/" className="brand-mark" aria-label="Bortholuzzi — home"><span className="brand-mark-placeholder" aria-hidden="true" /></Link>;
+  return <Link href="/" className="brand-mark" aria-label="Bortholuzzi — home">
+    <img src="/brand/rb-monogram.png" alt="RB — Raphael Truffi Bortholuzzi" width="544" height="470" />
+  </Link>;
 }
 
 export function SiteChrome({ children }: { children: React.ReactNode }) {
