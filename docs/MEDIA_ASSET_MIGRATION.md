@@ -51,3 +51,13 @@ The existing project is intended to use Cloudflare Pages Git integration with Gi
 3. Compare total derivative size and decide whether committing delivery files to Git is acceptable.
 4. Add assets to the Git-integrated Pages build and validate a preview deployment.
 5. Only after visual verification, update the canonical site and DNS with explicit approval.
+
+
+## Direct project media mapping — v2
+
+- `src/data/media.json` is generated only from the explicit `image_files` arrays in the audited `PROJECTS_INDEX.json` source.
+- 721 unique image files are associated with 41 source pages. The mapping was cross-checked against the 849-file archive manifest; all 721 referenced filenames exist.
+- Runtime image paths use `/media/<original-filename>` so the site serves committed files from `public/media/`, without depending on the legacy CDN.
+- 128 images without an explicit project reference remain in `public/media/` and are intentionally excluded from project galleries pending manual review.
+- Vimeo IDs remain sourced from the project catalog and are not altered by this mapping.
+- No title, date, credit, caption, category, or relationship was inferred.
