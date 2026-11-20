@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getEntry, portfolioEntries } from "@/data";
+import { getEntry, getMedia, portfolioEntries } from "@/data";
 
 export const dynamicParams = false;
 
@@ -24,6 +24,7 @@ export default async function ArchiveEntryPage({ params }: { params: Promise<{ s
   const { slug } = await params;
   const entry = getEntry(slug);
   if (!entry) notFound();
+  const media = getMedia(slug);
 
   return (
     <main className="site-shell">
@@ -39,7 +40,7 @@ export default async function ArchiveEntryPage({ params }: { params: Promise<{ s
       <article className="detail-page">
         <p className="eyebrow">{entry.type.replaceAll("_", " ")}</p>
         <h1>{entry.title}</h1>
-        {entry.type === "showreel" && entry.vimeoIds.length > 0 ? (
+        {entry.vimeoIds.length > 0 ? (
           <div className="video-stack">
             {entry.vimeoIds.map((id) => (
               <div className="video-frame" key={id}>
@@ -53,30 +54,25 @@ export default async function ArchiveEntryPage({ params }: { params: Promise<{ s
               </div>
             ))}
           </div>
+        ) : null}
+        {media.length > 0 ? (
+          <section className="media-gallery" aria-label={`Images for ${entry.title}`}>
+            {media.map((asset, index) => (
+              <figure className="media-gallery-item" key={asset.file}>
+                {/* Source CDN URL and project association are taken directly from the recovered media manifest. */}
+                <img src={asset.src} alt="" loading={index < 2 ? "eager" : "lazy"} decoding="async" />
+              </figure>
+            ))}
+          </section>
         ) : null}
         <dl className="archive-facts">
           <div><dt>Images referenced</dt><dd>{entry.imageReferences}</dd></div>
-          <div><dt>Image files identified</dt><dd>{entry.uniqueImageFiles}</dd></div>
+          <div><dt>Verified mapped images</dt><dd>{media.length}</dd></div>
           <div><dt>Vimeo references</dt><dd>{entry.vimeoIds.length}</dd></div>
         </dl>
-        {entry.type === "project" && entry.vimeoIds.length > 0 ? (
-          <div className="video-stack">
-            {entry.vimeoIds.map((id) => (
-              <div className="video-frame" key={id}>
-                <iframe
-                  src={`https://player.vimeo.com/video/${encodeURIComponent(id)}`}
-                  title={`${entry.title} — Vimeo video`}
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  loading="lazy"
-                />
-              </div>
-            ))}
-          </div>
-        ) : null}
         <p className="archive-note">
-          This page is generated from the audited portfolio index. Original descriptions, image ordering,
-          credits and editorial relationships remain pending source-content verification.
+          This page uses media with an explicit project reference in the recovered archive.
+          Original descriptions, credits and editorial relationships remain pending source-content verification.
         </p>
         <Link className="text-link" href="/work/">← Back to Work</Link>
       </article>
