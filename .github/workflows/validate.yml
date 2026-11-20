@@ -1,0 +1,43 @@
+name: Validate portfolio
+
+on:
+  push:
+    branches:
+      - phase-3-foundation
+  pull_request:
+    branches:
+      - main
+      - phase-3-foundation
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Verify static output
+        run: test -f out/index.html
+
+      - name: Verify media integrity
+        run: npm run verify:media -- --output out
