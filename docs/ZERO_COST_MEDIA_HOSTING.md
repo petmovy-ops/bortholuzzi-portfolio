@@ -56,3 +56,37 @@ If the Cloudflare Pages Git integration requires all source files in the reposit
 - 20-minute build timeout.
 
 Source: https://developers.cloudflare.com/pages/platform/limits/
+
+
+---
+
+# Zero-cost Pages media handoff
+
+The three source archives were extracted and verified locally.
+
+## Verified extraction
+- 849 image files extracted.
+- Total image bytes: 488,394,505 (465.8 MiB).
+- Largest file: 8,200,257 bytes (7.82 MiB).
+- Duplicate filenames across the three archives: 0.
+- Original filenames and bytes preserved.
+- SHA-256 checksums generated for every image.
+
+## Handoff package
+The extraction package is `BORTHOLUZZI_PAGES_MEDIA_v1.zip` and contains:
+- `public/media/` — all 849 original image files.
+- `media-file-index.csv` and `media-file-index.json` — filename, local URL, source archive, byte size and SHA-256.
+- `README.md` — installation instructions.
+
+## Installation target
+Extract the package at the repository root so the images reside under `public/media/`. Next.js static export will copy these files into `out/media/`.
+
+## Important
+This package does not rewrite project-to-image associations. The existing `src/data/media.json` remains a partial mapping and must not be treated as the complete manifest. Project gallery URLs should be switched from the legacy CDN to local `/media/<filename>` paths only after the complete audited project mapping is imported and the 849 files are present in the build workspace.
+
+## Deployment status
+- The image binaries are prepared in the handoff package, not committed to Git.
+- No Cloudflare Pages deployment has been performed.
+- No Cloudflare credentials or payment card are required for this preparation.
+- R2 remains unused.
+- DNS and `main` remain unchanged.
