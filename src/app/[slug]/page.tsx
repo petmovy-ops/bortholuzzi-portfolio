@@ -6,7 +6,7 @@ import { getEntry, portfolioEntries } from "@/data";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return portfolioEntries.map((entry) => ({ slug: entry.slug }));
+  return portfolioEntries.filter((entry) => entry.slug !== "work").map((entry) => ({ slug: entry.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
