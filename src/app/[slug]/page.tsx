@@ -59,7 +59,7 @@ export default async function ArchiveEntryPage({ params }: { params: Promise<{ s
           <section className="media-gallery" aria-label={`Images for ${entry.title}`}>
             {media.map((asset, index) => (
               <figure className="media-gallery-item" key={asset.file}>
-                {/* Source CDN URL and project association are taken directly from the recovered media manifest. */}
+                {/* Local static path and project association come from the audited PROJECTS_INDEX image_files list. */}
                 <img src={asset.src} alt="" loading={index < 2 ? "eager" : "lazy"} decoding="async" />
               </figure>
             ))}
