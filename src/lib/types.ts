@@ -19,3 +19,11 @@ export interface PortfolioEntry {
   auditStatus: string;
 }
 
+
+export interface PortfolioMedia {
+  file: string;
+  src: string;
+  contentType: string;
+  bytes: number;
+  archive: string;
+}
