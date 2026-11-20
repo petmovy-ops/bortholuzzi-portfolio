@@ -1,56 +1,53 @@
-# Media asset migration — verified inventory
+# Media asset migration — Cloudflare Pages Free
 
-## Source-of-truth audit
+## Verified source inventory (2026-11-20)
 
-The recovered `MEDIA_MAPPING_ASSETS.csv` contains 849 image records.
+The three image archives contain exactly 849 image files:
 
-| Metric | Verified value |
-|---|---:|
-| Total image records | 849 |
-| Records with explicit project association | 721 |
-| Records without direct project association | 128 |
-| Project slugs with direct image associations | 41 |
-| Records marked present in source archives | 849 |
-| Records marked absent from source archives | 0 |
+| Archive | Images | Uncompressed image data |
+|---|---:|---:|
+| `Archive.zip` | 444 | 253.92 MB |
+| `Archive 2.zip` | 269 | 162.01 MB |
+| `bortholuzzi_missing_assets.zip` | 136 | 72.47 MB |
+| **Total** | **849** | **488.40 MB** |
 
-The 721 associations are explicit references in the recovered media inventory. The 128 unassociated records must remain available for review and must not be assigned to projects by visual or filename inference.
+The largest individual image is 8.20 MB, below Cloudflare Pages' 25 MiB per-file asset limit. The 849 files are also below Pages Free's 20,000-file limit. The 82 image files in `BORTHOLUZZI_ACERVO_01_PAGINAS_E_CATALOGOS.zip` are screenshots/reference material and are not part of this 849-image production asset inventory.
 
-## Source archives
+Official limits: https://developers.cloudflare.com/pages/platform/limits/
 
-- `Archive.zip`: 444 image assets
-- `Archive 2.zip`: 269 image assets
-- `bortholuzzi_missing_assets.zip`: 136 image assets
+## Cost decision
 
-Total: 849 assets. The missing-assets ZIP also contains recovery notes and CSV files; only the 136 image records listed by the audited manifest count toward the image total.
+The project requirement is zero recurring cost. Do not activate R2, add a payment method, or create R2 API tokens for this migration.
 
-## Hosting decision
+Use Cloudflare Pages Free for the static site and its image assets. No R2 bucket is required.
 
-Do not add the original image binaries to this Git repository or to the static Pages build. The recovered image archives total hundreds of megabytes; putting them in Git history would make normal source control and deployments unnecessarily heavy.
+## Important deployment choice
 
-Recommended target: Cloudflare R2 for original image binaries, with a public/custom media hostname (for example, a dedicated media subdomain) and immutable object keys. The static Next.js site should consume a generated manifest that preserves the exact project associations and source filenames.
+The existing project is intended to use Cloudflare Pages Git integration with GitHub. Keep that approach. Do not create a Direct Upload Pages project as a substitute: Cloudflare documents that a Direct Upload project cannot later be switched to Git integration. Wrangler-based Direct Upload is possible, but would add credential and deployment steps that are unnecessary for this Git-integrated project.
 
-## Migration sequence
+## Asset delivery strategy
 
-1. Create an R2 bucket and configure a public/custom media hostname.
-2. Upload all 849 original files without recompression or renaming.
-3. Verify uploaded object count and byte sizes against the manifest.
-4. Generate the production media manifest using the new media hostname.
-5. Keep the 128 unassociated assets in a separate review index.
-6. Switch gallery URLs only after object-level verification and a preview deployment.
+- Preserve the three original ZIP archives unchanged as the source-of-truth backup.
+- Generate optimized WebP delivery derivatives from the original images; never overwrite originals.
+- Keep original filenames and a machine-readable mapping from original filename to derivative filename.
+- Use only explicit project associations from the audited media inventory.
+- Keep unassociated media in a separate review collection; do not infer project assignments.
+- Confirm every output file is below 25 MiB and the total site file count remains below 20,000.
+- Keep the Git repository reasonably sized. Review total derivative size before committing media binaries.
 
 ## Current implementation status
 
-- The site currently has an initial, partial media mapping in `src/data/media.json`. It is not the complete 849-record inventory and must not be treated as final.
-- Some gallery URLs still reference the original Adobe Portfolio CDN.
-- The source archives have been audited locally and all 849 manifest records are present in their declared source archives.
-- No R2 bucket is connected or configured from this environment.
-- No original binaries have been uploaded to R2.
-- No DNS, production deployment, or `main` branch changes were made.
+- Original source archives inspected locally: 849 images, 488.40 MB uncompressed.
+- Largest image: 8.20 MB.
+- No original image binaries have been committed to the repository.
+- The current `src/data/media.json` is partial and must not be treated as a complete final manifest.
+- The current gallery code still contains references to the legacy Adobe Portfolio CDN.
+- No R2 subscription, payment method, token, DNS change, production deployment, or merge has been made.
 
-## Integrity rules
+## Next actions
 
-- Preserve originals.
-- Do not rename files unless an explicit mapping preserves the original filename.
-- Do not infer project relationships.
-- Do not discard the unassociated 128 assets.
-- Do not switch production URLs before preview verification.
+1. Reconcile the full 849-file inventory with the asset mapping CSV, including duplicate filenames and archive provenance.
+2. Generate optimized WebP derivatives and a complete manifest without changing originals.
+3. Compare total derivative size and decide whether committing delivery files to Git is acceptable.
+4. Add assets to the Git-integrated Pages build and validate a preview deployment.
+5. Only after visual verification, update the canonical site and DNS with explicit approval.
