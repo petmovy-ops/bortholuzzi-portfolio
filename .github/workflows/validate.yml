@@ -38,3 +38,6 @@ jobs:
 
       - name: Verify static output
         run: test -f out/index.html
+
+      - name: Verify media integrity
+        run: npm run verify:media -- --output out
