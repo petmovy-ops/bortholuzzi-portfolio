@@ -1,36 +1,17 @@
 import Link from "next/link";
-import { projectEntries } from "@/data";
+import { SiteChrome, ProjectGrid } from "@/components/site-chrome";
+import { projectEntries, mediaBySlug } from "@/data";
+import categories from "@/data/categories.json";
 
 export default function HomePage() {
-  const featured = projectEntries.filter((project) => project.uniqueImageFiles > 0).slice(0, 6);
-  return (
-    <main className="site-shell">
-      <header className="site-header">
-        <Link className="wordmark" href="/" aria-label="Bortholuzzi home">BORTHOLUZZI</Link>
-        <nav className="primary-nav" aria-label="Main navigation">
-          <Link href="/work/">Work</Link>
-          <Link href="/showreel2016/">Showreels</Link>
-          <Link href="/about/">About</Link>
-          <Link href="/contact/">Contact</Link>
-        </nav>
-      </header>
-      <section className="hero" aria-labelledby="hero-title">
-        <p className="eyebrow">Portfolio / Selected work</p>
-        <h1 id="hero-title">Image, motion &amp; visual worlds.</h1>
-        <p className="hero-note">A portfolio archive of projects, images and moving work.</p>
-        <Link className="text-link" href="/work/">Explore all work ↗</Link>
-      </section>
-      <section className="home-selection">
-        <div className="section-heading"><p className="eyebrow">From the archive</p><Link className="text-link" href="/work/">All projects ↗</Link></div>
-        <div className="home-project-grid">
-          {featured.map((project) => (
-            <Link className="home-project" href={`/${project.slug}/`} key={project.slug}>
-              <span>{project.title}</span><small>{project.uniqueImageFiles} mapped images</small>
-            </Link>
-          ))}
-        </div>
-      </section>
-      <footer className="site-footer"><span>© {new Date().getFullYear()} Bortholuzzi</span><span>Independent portfolio</span></footer>
-    </main>
-  );
+  return <SiteChrome><main className="portfolio-content home-content">
+    <p className="eyebrow">Portfolio / Selected work</p>
+    <h1 className="home-title">Image, motion &amp;<br/>visual worlds.</h1>
+    <p className="home-intro">A multidisciplinary visual practice across image, motion, design and physical storytelling.</p>
+    <Link className="text-link" href="/work/">Explore selected work ↗</Link>
+    <section className="home-selection"><div className="section-heading"><p className="eyebrow">Selected projects</p><Link href="/work/">All work ↗</Link></div>
+      <ProjectGrid slugs={categories.work.slice(0,6)} entries={projectEntries} mediaBySlug={mediaBySlug}/>
+    </section>
+    <section className="home-categories"><Link href="/work/">Work <span>↗</span></Link><Link href="/illustrations/">Illustrations <span>↗</span></Link><Link href="/archives/">Archives <span>↗</span></Link></section>
+  </main></SiteChrome>;
 }
