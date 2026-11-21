@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { portfolioEntries } from "@/data";
+import { portfolioEntries, thumbnailBySlug } from "@/data";
 import categories from "@/data/categories.json";
 
 const social = [
@@ -50,7 +50,7 @@ export function ProjectGrid({ slugs, entries, mediaBySlug }: { slugs: string[]; 
   const bySlug = new Map(entries.map(entry => [entry.slug, entry]));
   return <div className="editorial-grid">{slugs.map(slug => {
     const entry=bySlug.get(slug); if (!entry) return null;
-    const cover=mediaBySlug[slug]?.[0]?.src;
+    const cover=thumbnailBySlug[slug] ?? mediaBySlug[slug]?.[0]?.src;
     return <article className="editorial-card" key={slug}>
       <Link href={`/${slug}/`} className="editorial-card-link">
         <div className={`editorial-thumb${cover ? "" : " editorial-thumb-empty"}`}>

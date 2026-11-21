@@ -1,8 +1,10 @@
 import type { PortfolioEntry, PortfolioMedia } from "@/lib/types";
 import catalog from "./projects.json";
 import media from "./media.json";
+import thumbnails from "./thumbnails.json";
 export const portfolioEntries = catalog as PortfolioEntry[];
 export const mediaBySlug = media as Record<string, PortfolioMedia[]>;
+export const thumbnailBySlug = thumbnails as Record<string, string>;
 export function getMedia(slug: string) { return mediaBySlug[slug] ?? []; }
 export function getEntry(slug: string) { return portfolioEntries.find((entry) => entry.slug === slug); }
 export const projectEntries = portfolioEntries.filter((entry) => entry.type === "project");
