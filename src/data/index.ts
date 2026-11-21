@@ -1,8 +1,13 @@
 import type { PortfolioEntry, PortfolioMedia } from "@/lib/types";
 import catalog from "./projects.json";
+import descriptions from "./descriptions.json";
 import media from "./media.json";
 import thumbnails from "./thumbnails.json";
-export const portfolioEntries = catalog as PortfolioEntry[];
+const descriptionsBySlug = descriptions as Record<string, string[]>;
+export const portfolioEntries = (catalog as PortfolioEntry[]).map((entry) => ({
+  ...entry,
+  description: descriptionsBySlug[entry.slug],
+}));
 export const mediaBySlug = media as Record<string, PortfolioMedia[]>;
 export const thumbnailBySlug = thumbnails as Record<string, string>;
 export function getMedia(slug: string) { return mediaBySlug[slug] ?? []; }
