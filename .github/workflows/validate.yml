@@ -3,6 +3,7 @@ name: Validate portfolio
 on:
   push:
     branches:
+      - main
       - phase-3-foundation
   pull_request:
     branches:
@@ -25,7 +26,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Type check
         run: npm run typecheck
