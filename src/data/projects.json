@@ -524,7 +524,8 @@
       "sourcePageAssets": 15,
       "missingAssets": 0
     },
-    "auditStatus": "catalogued_pending_content_review"
+    "auditStatus": "catalogued_pending_content_review",
+    "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/RtwPGdBI2za/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
   },
   {
     "slug": "mad-racing-game",

@@ -11,6 +11,7 @@ export interface PortfolioEntry {
   imageReferences: number;
   uniqueImageFiles: number;
   vimeoIds: string[];
+  embedUrl?: string;
   mediaAudit: {
     directAssetFiles: number;
     sourcePageAssets: number;
