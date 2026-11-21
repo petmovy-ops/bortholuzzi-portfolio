@@ -68,3 +68,9 @@
  .side-navigation .side-nav-group .side-label{display:flex}
  .side-group-links{padding-bottom:4px}
 }
+
+/* Original project descriptions and credits recovered from source portfolio pages */
+.project-description{max-width:720px;margin:0 0 30px;color:#777;font-size:13px;line-height:1.7}
+.project-description p{margin:0 0 12px;white-space:pre-line}
+.project-description p:last-child{margin-bottom:0}
+.project-description a{color:inherit;text-decoration:underline;text-underline-offset:3px}
