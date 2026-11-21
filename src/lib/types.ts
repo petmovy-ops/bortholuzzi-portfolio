@@ -12,6 +12,7 @@ export interface PortfolioEntry {
   uniqueImageFiles: number;
   vimeoIds: string[];
   embedUrl?: string;
+  embedUrls?: string[];
   description?: string[];
   mediaAudit: {
     directAssetFiles: number;

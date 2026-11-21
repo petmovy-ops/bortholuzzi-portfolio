@@ -936,7 +936,11 @@
       "sourcePageAssets": 4,
       "missingAssets": 0
     },
-    "auditStatus": "catalogued_pending_content_review"
+    "auditStatus": "catalogued_pending_content_review",
+    "embedUrls": [
+      "https://www.youtube.com/embed/vGX9-K4ePnI",
+      "https://www.youtube.com/embed/K68wKtji6W4"
+    ]
   },
   {
     "slug": "matte-painting",
