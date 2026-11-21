@@ -1,0 +1,1579 @@
+[
+  {
+    "slug": "illustrations",
+    "title": "Illustrations",
+    "type": "portfolio_collection",
+    "canonicalUrl": "https://bortholuzzi.com/illustrations",
+    "sourcePath": "/illustrations",
+    "migrationAction": "preserve",
+    "navigation": "secondary",
+    "imageReferences": 54,
+    "uniqueImageFiles": 53,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 53,
+      "sourcePageAssets": 53,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "warner-rexona",
+    "title": "Warner - Rexona & Dove",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/warner-rexona",
+    "sourcePath": "/warner-rexona",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 10,
+    "uniqueImageFiles": 9,
+    "vimeoIds": [
+      "145042936"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 9,
+      "sourcePageAssets": 9,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "cartoon-network-sanifill",
+    "title": "Cartoon Network - Sanifill",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/cartoon-network-sanifill",
+    "sourcePath": "/cartoon-network-sanifill",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "177407583"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "glee",
+    "title": "Glee",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/glee",
+    "sourcePath": "/glee",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "byoung",
+    "title": "Byoung",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/byoung",
+    "sourcePath": "/byoung",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "27825582",
+      "27835659",
+      "28124196"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "contact",
+    "title": "Contact",
+    "type": "site_page",
+    "canonicalUrl": "https://bortholuzzi.com/contact",
+    "sourcePath": "/contact",
+    "migrationAction": "preserve",
+    "navigation": "primary",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "le-stille",
+    "title": "Le Stille",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/le-stille",
+    "sourcePath": "/le-stille",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 12,
+    "uniqueImageFiles": 11,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 11,
+      "sourcePageAssets": 11,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "osram",
+    "title": "Osram",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/osram",
+    "sourcePath": "/osram",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 15,
+    "uniqueImageFiles": 14,
+    "vimeoIds": [
+      "112296969"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 14,
+      "sourcePageAssets": 14,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "storm",
+    "title": "Storm",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/storm",
+    "sourcePath": "/storm",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "109929421"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tnt-xmen-apocalypse",
+    "title": "TNT - Xmen Apocalypse",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tnt-xmen-apocalypse",
+    "sourcePath": "/tnt-xmen-apocalypse",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "167443147"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "listerine-1",
+    "title": "Listerine",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/listerine-1",
+    "sourcePath": "/listerine-1",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 15,
+    "uniqueImageFiles": 14,
+    "vimeoIds": [
+      "222847386",
+      "1173803716"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 14,
+      "sourcePageAssets": 14,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "minibis-cannes",
+    "title": "MiniBis Cannes",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/minibis-cannes",
+    "sourcePath": "/minibis-cannes",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 3,
+    "uniqueImageFiles": 2,
+    "vimeoIds": [
+      "22977182"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 2,
+      "sourcePageAssets": 2,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "space-suicide-squad",
+    "title": "Space - Suicide Squad",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/space-suicide-squad",
+    "sourcePath": "/space-suicide-squad",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "181239692",
+      "181234480"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "work",
+    "title": "Work",
+    "type": "site_page",
+    "canonicalUrl": "https://bortholuzzi.com/work",
+    "sourcePath": "/work",
+    "migrationAction": "preserve",
+    "navigation": "primary",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "warner-suicide-squad",
+    "title": "Warner - Suicide Squad",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/warner-suicide-squad",
+    "sourcePath": "/warner-suicide-squad",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "181239693",
+      "181234482"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "barclays",
+    "title": "Barclays",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/barclays",
+    "sourcePath": "/barclays",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 13,
+    "uniqueImageFiles": 12,
+    "vimeoIds": [
+      "158219824"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 12,
+      "sourcePageAssets": 12,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "isso-que-importa",
+    "title": "Isso que importa",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/isso-que-importa",
+    "sourcePath": "/isso-que-importa",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "33193095"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "stayheavy-ident-rebrand",
+    "title": "Stayheavy Ident Rebrand",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/stayheavy-ident-rebrand",
+    "sourcePath": "/stayheavy-ident-rebrand",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 9,
+    "uniqueImageFiles": 8,
+    "vimeoIds": [
+      "57252748",
+      "57270355"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 8,
+      "sourcePageAssets": 8,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "0049",
+    "title": "0049",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/0049",
+    "sourcePath": "/0049",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "about",
+    "title": "About",
+    "type": "site_page",
+    "canonicalUrl": "https://bortholuzzi.com/about",
+    "sourcePath": "/about",
+    "migrationAction": "preserve",
+    "navigation": "primary",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "fujifilm-s7000",
+    "title": "Fujifilm S7000",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/fujifilm-s7000",
+    "sourcePath": "/fujifilm-s7000",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 114,
+    "uniqueImageFiles": 113,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 113,
+      "sourcePageAssets": 113,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "abraham-lincoln-the-vampire-hunter",
+    "title": "Abraham Lincoln The Vampire Hunter",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/abraham-lincoln-the-vampire-hunter",
+    "sourcePath": "/abraham-lincoln-the-vampire-hunter",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "sky-tv",
+    "title": "Sky Tv",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/sky-tv",
+    "sourcePath": "/sky-tv",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 13,
+    "uniqueImageFiles": 12,
+    "vimeoIds": [
+      "118149862"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 12,
+      "sourcePageAssets": 12,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "black-top-rules",
+    "title": "Black Top Rules",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/black-top-rules",
+    "sourcePath": "/black-top-rules",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "109929422",
+      "109929423",
+      "109929424",
+      "114557300"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "nextel",
+    "title": "Nextel",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/nextel",
+    "sourcePath": "/nextel",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "chilli-beans",
+    "title": "Chilli Beans",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/chilli-beans",
+    "sourcePath": "/chilli-beans",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 7,
+    "uniqueImageFiles": 6,
+    "vimeoIds": [
+      "16714975"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 6,
+      "sourcePageAssets": 6,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "showreel20078",
+    "title": "Showreel'2007/8",
+    "type": "showreel",
+    "canonicalUrl": "https://bortholuzzi.com/showreel20078",
+    "sourcePath": "/showreel20078",
+    "migrationAction": "preserve",
+    "navigation": "secondary",
+    "imageReferences": 16,
+    "uniqueImageFiles": 15,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 15,
+      "sourcePageAssets": 15,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review",
+    "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/RtwPGdBI2za/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+  },
+  {
+    "slug": "mad-racing-game",
+    "title": "Mad Racing Game",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/mad-racing-game",
+    "sourcePath": "/mad-racing-game",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "16057468",
+      "16167855"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "piggss-endeavor",
+    "title": "Piggs's - Endeavor",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/piggss-endeavor",
+    "sourcePath": "/piggss-endeavor",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 10,
+    "uniqueImageFiles": 9,
+    "vimeoIds": [
+      "16637515",
+      "16639210",
+      "16635436"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 9,
+      "sourcePageAssets": 9,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "infographic",
+    "title": "Infographic",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/infographic",
+    "sourcePath": "/infographic",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "30203807"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tnt-heart-of-the-sea",
+    "title": "TNT - Heart of the Sea",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tnt-heart-of-the-sea",
+    "sourcePath": "/tnt-heart-of-the-sea",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "158220065"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tang",
+    "title": "Tang",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tang",
+    "sourcePath": "/tang",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 3,
+    "uniqueImageFiles": 2,
+    "vimeoIds": [
+      "21939948"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 2,
+      "sourcePageAssets": 2,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "the-girl-and-the-sea",
+    "title": "The Girl and The Sea",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/the-girl-and-the-sea",
+    "sourcePath": "/the-girl-and-the-sea",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "72587858"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "byoung-1",
+    "title": "Byoung",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/byoung-1",
+    "sourcePath": "/byoung-1",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 3,
+    "uniqueImageFiles": 2,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 2,
+      "sourcePageAssets": 2,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "nspd",
+    "title": "Nspd",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/nspd",
+    "sourcePath": "/nspd",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "31085487"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "super-kibon",
+    "title": "Super Kibon",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/super-kibon",
+    "sourcePath": "/super-kibon",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 7,
+    "uniqueImageFiles": 6,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 6,
+      "sourcePageAssets": 6,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tv-rede-record",
+    "title": "Tv Rede Record",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tv-rede-record",
+    "sourcePath": "/tv-rede-record",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 27,
+    "uniqueImageFiles": 26,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 26,
+      "sourcePageAssets": 26,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "fruttare",
+    "title": "TNT - Fruttare",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/fruttare",
+    "sourcePath": "/fruttare",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 13,
+    "uniqueImageFiles": 12,
+    "vimeoIds": [
+      "154343162"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 12,
+      "sourcePageAssets": 12,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tnt-o-boticario",
+    "title": "TNT - O Boticário",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tnt-o-boticario",
+    "sourcePath": "/tnt-o-boticario",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "181244497"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "nebula-dust",
+    "title": "Nebula Dust",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/nebula-dust",
+    "sourcePath": "/nebula-dust",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "showreel2016",
+    "title": "Showreel'16",
+    "type": "showreel",
+    "canonicalUrl": "https://bortholuzzi.com/showreel2016",
+    "sourcePath": "/showreel2016",
+    "migrationAction": "preserve",
+    "navigation": "secondary",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "145585708"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "the-vagalumes",
+    "title": "The Vagalumes",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/the-vagalumes",
+    "sourcePath": "/the-vagalumes",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 13,
+    "uniqueImageFiles": 12,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 12,
+      "sourcePageAssets": 12,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "space-o-chamado",
+    "title": "Space - O Chamado",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/space-o-chamado",
+    "sourcePath": "/space-o-chamado",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "200006329"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "cr-zongshen",
+    "title": "CR Zongshen",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/cr-zongshen",
+    "sourcePath": "/cr-zongshen",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "16605022"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "showreel13",
+    "title": "Showreel'13",
+    "type": "showreel",
+    "canonicalUrl": "https://bortholuzzi.com/showreel13",
+    "sourcePath": "/showreel13",
+    "migrationAction": "preserve",
+    "navigation": "secondary",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "51677908"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "teaser-madfx",
+    "title": "Teaser MadFX",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/teaser-madfx",
+    "sourcePath": "/teaser-madfx",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "18548905"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "the-library",
+    "title": "The Library",
+    "type": "portfolio_collection",
+    "canonicalUrl": "https://bortholuzzi.com/the-library",
+    "sourcePath": "/the-library",
+    "migrationAction": "preserve",
+    "navigation": "secondary",
+    "imageReferences": 7,
+    "uniqueImageFiles": 6,
+    "vimeoIds": [
+      "4657937"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 6,
+      "sourcePageAssets": 6,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "midinho-o-pequeno-missionario",
+    "title": "Midinho O Pequeno Missionário",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/midinho-o-pequeno-missionario",
+    "sourcePath": "/midinho-o-pequeno-missionario",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 5,
+    "uniqueImageFiles": 4,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 4,
+      "sourcePageAssets": 4,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review",
+    "embedUrls": [
+      "https://www.youtube.com/embed/vGX9-K4ePnI",
+      "https://www.youtube.com/embed/K68wKtji6W4"
+    ]
+  },
+  {
+    "slug": "matte-painting",
+    "title": "Matte Painting",
+    "type": "portfolio_collection",
+    "canonicalUrl": "https://bortholuzzi.com/matte-painting",
+    "sourcePath": "/matte-painting",
+    "migrationAction": "preserve",
+    "navigation": "secondary",
+    "imageReferences": 10,
+    "uniqueImageFiles": 9,
+    "vimeoIds": [
+      "4575531"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 9,
+      "sourcePageAssets": 9,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tnt-sabores-do-cinema",
+    "title": "TNT - Sabores do Cinema",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tnt-sabores-do-cinema",
+    "sourcePath": "/tnt-sabores-do-cinema",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "1173803081"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "decorsim",
+    "title": "Decor'Sim",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/decorsim",
+    "sourcePath": "/decorsim",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "16556030"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "listerine",
+    "title": "Listerine",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/listerine",
+    "sourcePath": "/listerine",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "33733005"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "madfx",
+    "title": "MadFX",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/madfx",
+    "sourcePath": "/madfx",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "17385886"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "artistic-world-food",
+    "title": "Artistic World Food",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/artistic-world-food",
+    "sourcePath": "/artistic-world-food",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "62302950"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "sundown-motos",
+    "title": "Sundown Motos",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/sundown-motos",
+    "sourcePath": "/sundown-motos",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 19,
+    "uniqueImageFiles": 18,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 18,
+      "sourcePageAssets": 18,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "harder-faster-better-stronger",
+    "title": "Harder, Faster, Better, Stronger",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/harder-faster-better-stronger",
+    "sourcePath": "/harder-faster-better-stronger",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 17,
+    "uniqueImageFiles": 16,
+    "vimeoIds": [
+      "67989637"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 16,
+      "sourcePageAssets": 16,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "pantene",
+    "title": "Pantene",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/pantene",
+    "sourcePath": "/pantene",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 16,
+    "uniqueImageFiles": 15,
+    "vimeoIds": [
+      "1173802276",
+      "209975388"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 15,
+      "sourcePageAssets": 15,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "estadao",
+    "title": "Estadão",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/estadao",
+    "sourcePath": "/estadao",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 3,
+    "uniqueImageFiles": 2,
+    "vimeoIds": [
+      "27817303"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 2,
+      "sourcePageAssets": 2,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "havaianas",
+    "title": "Cartoon Network - Havaianas",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/havaianas",
+    "sourcePath": "/havaianas",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [
+      "237025520",
+      "236089763",
+      "1170394253"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "distinto",
+    "title": "Distinto",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/distinto",
+    "sourcePath": "/distinto",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 21,
+    "uniqueImageFiles": 20,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 20,
+      "sourcePageAssets": 20,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "sedex-correios",
+    "title": "TNT - Sedex",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/sedex-correios",
+    "sourcePath": "/sedex-correios",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 17,
+    "uniqueImageFiles": 16,
+    "vimeoIds": [
+      "145009524"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 16,
+      "sourcePageAssets": 16,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "ig",
+    "title": "IG",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/ig",
+    "sourcePath": "/ig",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "16642105"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "archives",
+    "title": "Archives",
+    "type": "site_page",
+    "canonicalUrl": "https://bortholuzzi.com/archives",
+    "sourcePath": "/archives",
+    "migrationAction": "preserve",
+    "navigation": "supporting",
+    "imageReferences": 205,
+    "uniqueImageFiles": 204,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 204,
+      "sourcePageAssets": 204,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "experimental-art",
+    "title": "Experimental Art",
+    "type": "portfolio_collection",
+    "canonicalUrl": "https://bortholuzzi.com/experimental-art",
+    "sourcePath": "/experimental-art",
+    "migrationAction": "preserve",
+    "navigation": "secondary",
+    "imageReferences": 33,
+    "uniqueImageFiles": 32,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 32,
+      "sourcePageAssets": 32,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "vibraspheres",
+    "title": "Vibraspheres",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/vibraspheres",
+    "sourcePath": "/vibraspheres",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "17276911",
+      "17309035"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "mad-racing",
+    "title": "Mad Racing",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/mad-racing",
+    "sourcePath": "/mad-racing",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tnt-the-revenant",
+    "title": "TNT - The Revenant",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tnt-the-revenant",
+    "sourcePath": "/tnt-the-revenant",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "158220069"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "marilan-padrinhos-magicos",
+    "title": "Marilan - Padrinhos Mágicos",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/marilan-padrinhos-magicos",
+    "sourcePath": "/marilan-padrinhos-magicos",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "16555079"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "how-stars-are-made",
+    "title": "How Stars Are Made",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/how-stars-are-made",
+    "sourcePath": "/how-stars-are-made",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 12,
+    "uniqueImageFiles": 11,
+    "vimeoIds": [
+      "19628078"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 11,
+      "sourcePageAssets": 11,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tnt-the-shallows",
+    "title": "TNT - The Shallows",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tnt-the-shallows",
+    "sourcePath": "/tnt-the-shallows",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "181241924"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "grasshoppers",
+    "title": "Grasshoppers",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/grasshoppers",
+    "sourcePath": "/grasshoppers",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "59470259"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "super-kibon-game",
+    "title": "Super Kibon Game",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/super-kibon-game",
+    "sourcePath": "/super-kibon-game",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "16059176"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "phillips",
+    "title": "Phillips",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/phillips",
+    "sourcePath": "/phillips",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "32520439"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tbs-suicide-squad",
+    "title": "TBS - Suicide Squad",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tbs-suicide-squad",
+    "sourcePath": "/tbs-suicide-squad",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "181234481"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "tam-airlines",
+    "title": "TAM Airlines",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/tam-airlines",
+    "sourcePath": "/tam-airlines",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 5,
+    "uniqueImageFiles": 4,
+    "vimeoIds": [
+      "17388368"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 4,
+      "sourcePageAssets": 4,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "mop",
+    "title": "M.O.P",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/mop",
+    "sourcePath": "/mop",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "59470260"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "gooc-fine",
+    "title": "Gooc Fine",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/gooc-fine",
+    "sourcePath": "/gooc-fine",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 4,
+    "uniqueImageFiles": 3,
+    "vimeoIds": [
+      "16605680"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 3,
+      "sourcePageAssets": 3,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "toyart-contest",
+    "title": "Toyart Contest",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/toyart-contest",
+    "sourcePath": "/toyart-contest",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 3,
+    "uniqueImageFiles": 2,
+    "vimeoIds": [
+      "27914976"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 2,
+      "sourcePageAssets": 2,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "space-heart-of-the-sea",
+    "title": "Space - Heart of the Sea",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/space-heart-of-the-sea",
+    "sourcePath": "/space-heart-of-the-sea",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "158220064"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  },
+  {
+    "slug": "samsung",
+    "title": "Samsung",
+    "type": "project",
+    "canonicalUrl": "https://bortholuzzi.com/samsung",
+    "sourcePath": "/samsung",
+    "migrationAction": "preserve",
+    "navigation": "detail_or_indexed",
+    "imageReferences": 1,
+    "uniqueImageFiles": 0,
+    "vimeoIds": [
+      "555899779"
+    ],
+    "mediaAudit": {
+      "directAssetFiles": 0,
+      "sourcePageAssets": 0,
+      "missingAssets": 0
+    },
+    "auditStatus": "catalogued_pending_content_review"
+  }
+]
